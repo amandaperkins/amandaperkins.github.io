@@ -35,9 +35,9 @@ body {
   font-family: "compacta";
   font-size: 20vh;
   color: transparent;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: white;
-  line-height: 17vh;
+  line-height: 20vh;
 }
 
 #coming1 {
