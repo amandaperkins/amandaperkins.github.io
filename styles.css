@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+@font-face{
+    font-family: "compacta";
+    src: url(compacta.ttf);
+}
+
+@font-face{
+    font-family: "ArNar";
+    src: url(ArNar.ttf);
+}
+html,
+body {
+  background: white;
+	margin: 0;
+	font-family: "compacta";
+	font-size: 6vh;
+	letter-spacing:1px;
+	height:100vh;
+	width: 100%;
+}
+#logo {
+	position: absolute;
+  top: 20px;
+  width: 100%;
+	z-index: 2;
+  /*-webkit-animation:  2.0s ease-in;*/
+  text-align: center;
+  font-family: "compacta";
+  font-size: 7vh;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+#vid1 {
+	position: fixed;
+  top: 22%;
+  left:0;
+  width: 50%;
+  height: 50%;
+	z-index: 2;
+  text-align: center;
+  font-family: "ArNar";
+  font-size: 10vh;
+  color: white;
+}
+
+#vid2 {
+	position: fixed;
+  top: 22%;
+  right:0;
+  width: 50%;
+  height: 50%;
+	z-index: 2;
+  text-align: center;
+  font-family: 'ArNar';
+  font-size: 10vh;
+  color: white;
+}
+
+#vid3 {
+	position: fixed;
+  top: 70%;
+  width: 50%;
+  height: 50%;
+  left:0;
+	z-index: 2;
+  text-align: center;
+  font-family: 'ArNar';
+  font-size: 10vh;
+  color: white;
+}
+
+#vid4 {
+	position: fixed;
+  top: 70%;
+  right:0;
+  width: 50%;
+  height: 50%;
+	z-index: 2;
+  text-align: center;
+  font-family: 'ArNar';
+  font-size: 10vh;
+  color: white;
+}
+
+.video {
+  width:200%;
+  height:200%;
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+#video {
+  width:100%;
+  height: 100%;
+  position: fixed;
+  top:50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+img {
+  z-index: 2;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+.stopfade {
+   opacity: .5;
+}
+
+@media screen and (max-width: 500px) {
+  div{width:70%;}
+}
+@media screen and (max-device-width: 800px) {
+  html { background: url(https://thenewcode.com/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+  #bgvid { display: none; }
+}
