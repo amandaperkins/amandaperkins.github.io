@@ -48,6 +48,7 @@ body {
   font-family: "ArNar";
   font-size: 10vh;
   color: white;
+  text-shadow: 3px 3px 3px green;
 }
 
 #vid2 {
@@ -61,6 +62,7 @@ body {
   font-family: 'ArNar';
   font-size: 10vh;
   color: white;
+    text-shadow: 3px 3px 3px green;
 }
 
 #vid3 {
@@ -74,6 +76,7 @@ body {
   font-family: 'ArNar';
   font-size: 10vh;
   color: white;
+	  text-shadow: 3px 3px 3px green;
 }
 
 #vid4 {
@@ -87,6 +90,7 @@ body {
   font-family: 'ArNar';
   font-size: 10vh;
   color: white;
+	  text-shadow: 3px 3px 3px green;
 }
 
 .video {
